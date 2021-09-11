@@ -1,10 +1,13 @@
+/* GENERAL STYLING */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* END OF GENERAL STYLING */
 
+/* LANDING PAGE STYLING */
 
 .landing {
     background-image: url(./assets/backgrounds/h_img.jpg);
@@ -35,5 +38,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 9.5rem;
 }
+.mouse img {
+    position: relative;
+    margin-top: 7rem;
+    padding-top: 3rem;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    10% {
+
+        transform: translateY(0);
+    }
+    50% {
+
+        transform: translateY(-50px);
+    }
+    75% {
+
+        transform: translateY(-75px);
+    }
+}
+
+/* END OF LANDING PAGE STYLING */
+
+/* ABOUT SECTION STYLING */
+
+.about {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.about p{
+    font-weight: 500;
+}
+
+/* END OF ABOUT SECTION STYLING */
