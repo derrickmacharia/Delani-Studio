@@ -13,6 +13,7 @@
     background-image: url(./assets/backgrounds/h_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
     height: auto;
 }
@@ -50,6 +51,10 @@
     10% {
 
         transform: translateY(0);
+    }
+    30% {
+
+        transform: translateY(-25px);
     }
     50% {
 
@@ -89,3 +94,13 @@
 }
 
 /* END OF SERVICE SECTION */
+
+.what-we-do {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.heading1 {
+    padding-bottom: 2rem;
+}

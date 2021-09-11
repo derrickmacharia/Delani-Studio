@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $(".part1").click(function(){
+        $("#design").toggle();
+    })
+    $(".part2").click(function(){
+        $("#development").toggle();
+    })
+    $(".part3").click(function(){
+        $("#product").toggle();
+    })
+});
