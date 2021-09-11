@@ -43,6 +43,7 @@
     position: relative;
     margin-top: 7rem;
     padding-top: 3rem;
+    padding-bottom: 2rem;
     animation: bounce 2s infinite;
 }
 @keyframes bounce {
@@ -74,3 +75,17 @@
 }
 
 /* END OF ABOUT SECTION STYLING */
+
+/* SERVICE SECTION */
+
+.services {
+    background-image: url(./assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+/* END OF SERVICE SECTION */
