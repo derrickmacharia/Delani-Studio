@@ -104,3 +104,14 @@
 .heading1 {
     padding-bottom: 2rem;
 }
+
+#design, #development, #product {
+    display: none;
+}
+
+
+
+.pic1 {
+    background-image: url(./assets/portfolio/work4.jpg);
+    background-size: cover;
+}
