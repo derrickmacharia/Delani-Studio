@@ -75,6 +75,9 @@
     padding-bottom: 3rem;
     text-align: center;
 }
+.about h1{
+    color: black;
+}
 .about p{
     font-weight: 500;
 }
@@ -93,25 +96,67 @@
     padding-bottom: 8rem;
 }
 
-/* END OF SERVICE SECTION */
+/* END OF SERVICE STYLING */
+
+/* WHAT WE DO SECTION */
 
 .what-we-do {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    color: black;
 }
 
 .heading1 {
     padding-bottom: 2rem;
+    color: black;
+}
+.design, .development, .product {
+    color:black;
 }
 
 #design, #development, #product {
     display: none;
+    color: black;
 }
 
+/* END OF WHAT WE DO STYLING */
 
+/* PORTFOLIO SECTION */
 
-.pic1 {
-    background-image: url(./assets/portfolio/work4.jpg);
+.heading2 {
+    color: black;
+}
+
+/* END OF PORTFOLIO STYLING */
+
+/* CONTACT SECTION */
+
+.contact {
+    background-image: url(./assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
+.contact, .container, h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+.form, .textarea {
+    background-color: transparent;
+}
+.form1, .form2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.textarea {
+    margin-bottom: 1rem;
+}
+.btn {
+    margin-bottom: 1rem;
+}
+
+/* END OF CONTACT STYLING */
+
+

@@ -12,7 +12,7 @@
     <title>Delani Studio</title>
 </head>
 <body>
-    <div class="container-full">
+    <div class="container-full" id="fullpage">
         <!-- LANDING PAGE -->
         <div class="landing">
             <div class="logo">
@@ -89,17 +89,42 @@
             </div>
         </div>
         <!-- END OF WHAT WE DO SECTION -->
-        <div class="container portfolio">
+        <div class="container ">
             <div class="row">
                 <h1 class="heading2">PORTFOLIO</h1>
-                <div class="col-md-3 pic1">
-                    <h4>WORK SPACE</h4>
+                <div class="col-md-3">
+                    <img src="./assets/portfolio/work4.jpg" class="responsive" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/portfolio/work3.jpg" class="responsive" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/portfolio/work2.jpg" class="responsive" alt="">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/portfolio/work1.jpg" class="responsive" alt="">
                 </div>
             </div>
         </div>
+
+        <div class="container-full contact">
+            <div class="container">
+                <h1>CONTACT US</h1>
+                <div class="row">
+                    <div class=" col-md-6 form1 ">
+                        <input type="text"  class="form-control form" id="Input1" placeholder="Name..." required>
+                    </div>
+                    <div class="col-md-6 form2 ">
+                        <input type="email" class="form-control form" id="Input2" placeholder="Email..." required>
+                    </div>
+                    <div class="textarea">
+                        <textarea class="form-control textarea" id="Textarea1" placeholder="Your message here..." rows="6"></textarea>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-info">Submit</button>
+            </div> 
+        </div>
     </div>
-
-
     <script src="script.js"></script>
 </body>
 </html>
