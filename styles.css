@@ -126,8 +126,16 @@
 
 .heading2 {
     color: black;
+    padding: 1rem;
 }
-
+.portfolio2 {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
 /* END OF PORTFOLIO STYLING */
 
 /* CONTACT SECTION */
