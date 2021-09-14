@@ -365,4 +365,16 @@
 
 /* END OF CONTACT STYLING */
 
+/* FOOTER SECTION */
+.social{
+    background-color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.footer{
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
+}
 
+/* END OF FOOTER SECTION */
