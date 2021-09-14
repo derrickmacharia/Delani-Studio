@@ -363,9 +363,23 @@
     margin-bottom: 1rem;
 }
 #submit {
-    
+    color: white;
+    transition: all 0.5s;
+    background: transparent;
+    margin-bottom: 2rem;
     border-radius: 10%;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+
+}
+#submit:hover {
+    background-color: crimson;
+    color: #fff;
+    box-shadow: 0 0 10px crimson, 0 0 20px crimson, 0 0 40px crimson;
+    outline: none;
 }
 
 /* END OF CONTACT STYLING */
