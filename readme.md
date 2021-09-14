@@ -15,18 +15,10 @@ This website is fully interactive and available leave a message at the end.
 ## Technologies Used
 The technologies used were HTML and CSS for styling, javascript to make it interactive.
 ## BDD  
-    <table>
-        <tr>
-            <th>Behaviour</th>
-            <th>Input</th>
-            <th>Output</th>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+* user add name and email
+* then add a message
+* press the submit button
+* receive the users name and feedback as an alert
 ## Support and contact details
 For more information,comments or clarification contact on derrick.macharia@student.moringaschool.com
 ### License
