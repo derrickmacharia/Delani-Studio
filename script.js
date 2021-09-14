@@ -1,5 +1,7 @@
 
 
+
+
 $(document).ready(function(){
     $(".design").click(function(){
         $("#design").show();
@@ -82,5 +84,21 @@ $(document).ready(function(){
     });
     $(".custom-container8").mouseleave(function(){
         $(".blank-space8").hide()
+    });
+});
+
+
+$(document).ready(function(){
+    $("form#input-form").submit(function(event){
+        event.preventDefault();
+        var name = $("input#input1").val();
+        var email = $("input#input2").val();
+        var message = $("textarea#textarea1").val();
+        
+        if ($("input#input1").val() && $("input#input2").val()) {
+            alert(name + " We have received your feedback!");
+        } else {
+            alert("Please enter valid email or name");
+        }
     });
 });

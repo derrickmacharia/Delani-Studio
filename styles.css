@@ -352,6 +352,9 @@
 .form, .textarea {
     background-color: transparent;
 }
+.input-form ::placeholder {
+    color: #fff;
+}
 .form1, .form2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -359,8 +362,10 @@
 .textarea {
     margin-bottom: 1rem;
 }
-.btn {
-    margin-bottom: 1rem;
+#submit {
+    
+    border-radius: 10%;
+    padding: 10px;
 }
 
 /* END OF CONTACT STYLING */
