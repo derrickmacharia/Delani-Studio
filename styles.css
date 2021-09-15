@@ -378,7 +378,7 @@
 #submit:hover {
     background-color: crimson;
     color: #fff;
-    box-shadow: 0 0 10px crimson, 0 0 20px crimson, 0 0 40px crimson;
+    box-shadow: 0 0 10px black, 0 0 20px crimson, 0 0 40px black;
     outline: none;
 }
 
